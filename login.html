@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | ShopEase</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="index.html">
+            ShopEase
+        </a>
+
+        <button class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav mx-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+            <a href="cart.html" class="btn btn-outline-light me-2">
+                <i class="bi bi-cart3"></i>
+            </a>
+
+        </div>
+
+    </div>
+</nav>
+
+<!-- ================= LOGIN ================= -->
+
+<section class="py-5">
+
+<div class="container">
+
+<div class="row justify-content-center">
+
+<div class="col-lg-5">
+
+<div class="card shadow-lg border-0">
+
+<div class="card-body p-5">
+
+<h2 class="text-center mb-4">
+
+Welcome Back
+
+</h2>
+
+<ul class="nav nav-tabs mb-4" id="loginTab">
+
+<li class="nav-item">
+
+<button class="nav-link active"
+data-bs-toggle="tab"
+data-bs-target="#login">
+
+Login
+
+</button>
+
+</li>
+
+<li class="nav-item">
+
+<button class="nav-link"
+data-bs-toggle="tab"
+data-bs-target="#register">
+
+Register
+
+</button>
+
+</li>
+
+</ul>
+
+<div class="tab-content">
+
+<!-- LOGIN -->
+
+<div class="tab-pane fade show active" id="login">
+
+<form>
+
+<div class="mb-3">
+
+<label>Email</label>
+
+<input type="email"
+class="form-control"
+placeholder="Enter Email"
+required>
+
+</div>
+
+<div class="mb-3">
+
+<label>Password</label>
+
+<input type="password"
+class="form-control"
+placeholder="Enter Password"
+required>
+
+</div>
+
+<div class="d-flex justify-content-between mb-3">
+
+<div class="form-check">
+
+<input type="checkbox"
+class="form-check-input">
+
+<label class="form-check-label">
+
+Remember Me
+
+</label>
+
+</div>
+
+<a href="#" class="text-decoration-none">
+
+Forgot Password?
+
+</a>
+
+</div>
+
+<button class="btn btn-primary w-100">
+
+Login
+
+</button>
+
+</form>
+
+</div>
+
+<!-- REGISTER -->
+
+<div class="tab-pane fade" id="register">
+
+<form>
+
+<div class="mb-3">
+
+<label>Full Name</label>
+
+<input type="text"
+class="form-control"
+placeholder="Enter Full Name">
+
+</div>
+
+<div class="mb-3">
+
+<label>Email</label>
+
+<input type="email"
+class="form-control">
+
+</div>
+
+<div class="mb-3">
+
+<label>Password</label>
+
+<input type="password"
+class="form-control">
+
+</div>
+
+<div class="mb-3">
+
+<label>Confirm Password</label>
+
+<input type="password"
+class="form-control">
+
+</div>
+
+<button class="btn btn-success w-100">
+
+Create Account
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="text-center">
+
+Or Continue With
+
+</p>
+
+<div class="d-grid gap-2">
+
+<button class="btn btn-danger">
+<i class="bi bi-google"></i>
+Google
+</button>
+
+<button class="btn btn-primary">
+<i class="bi bi-facebook"></i>
+Facebook
+</button>
+
+<button class="btn btn-dark">
+<i class="bi bi-github"></i>
+GitHub
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-dark text-white text-center py-4">
+
+<div class="container">
+
+<p class="mb-0">
+
+© 2026 ShopEase. All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,423 @@
+/*======================================
+    ShopEase E-Commerce CSS
+=======================================*/
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/*==============================
+    General
+===============================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8f9fa;
+    color:#333;
+    line-height:1.6;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+    transition:.3s;
+}
+
+ul{
+    list-style:none;
+}
+
+/*==============================
+    Navbar
+===============================*/
+
+.navbar{
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:700;
+    color:#ffc107 !important;
+}
+
+.nav-link{
+    color:#fff !important;
+    font-weight:500;
+    margin:0 8px;
+}
+
+.nav-link:hover{
+    color:#ffc107 !important;
+}
+
+.navbar .btn{
+    border-radius:30px;
+}
+
+/*==============================
+    Hero Carousel
+===============================*/
+
+.carousel-item img{
+    height:550px;
+    object-fit:cover;
+}
+
+.carousel-caption{
+    bottom:120px;
+    background:rgba(0,0,0,.45);
+    padding:30px;
+    border-radius:10px;
+}
+
+.carousel-caption h1{
+    font-size:52px;
+    font-weight:700;
+}
+
+.carousel-caption p{
+    font-size:20px;
+}
+
+/*==============================
+    Sections
+===============================*/
+
+section{
+    padding:70px 0;
+}
+
+section h2{
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+/*==============================
+    Cards
+===============================*/
+
+.card{
+    border:none;
+    border-radius:12px;
+    overflow:hidden;
+    transition:.35s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.card img{
+    transition:.4s;
+}
+
+.card:hover img{
+    transform:scale(1.05);
+}
+
+/*==============================
+    Product
+===============================*/
+
+.card-title{
+    font-weight:600;
+}
+
+.price{
+    color:#0d6efd;
+    font-size:22px;
+    font-weight:700;
+}
+
+.old-price{
+    text-decoration:line-through;
+    color:#888;
+    margin-left:10px;
+}
+
+.rating{
+    color:#ffc107;
+}
+
+.badge-sale{
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+/*==============================
+    Buttons
+===============================*/
+
+.btn{
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn-primary:hover{
+    transform:translateY(-2px);
+}
+
+.btn-warning{
+    font-weight:600;
+}
+
+/*==============================
+    Category
+===============================*/
+
+.category-card{
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    transition:.3s;
+}
+
+.category-card:hover{
+    background:#0d6efd;
+    color:#fff;
+}
+
+/*==============================
+    Breadcrumb
+===============================*/
+
+.breadcrumb{
+    margin:0;
+}
+
+.breadcrumb-item a{
+    color:#0d6efd;
+}
+
+/*==============================
+    Forms
+===============================*/
+
+.form-control,
+.form-select{
+    border-radius:8px;
+    padding:12px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    box-shadow:none;
+    border-color:#0d6efd;
+}
+
+/*==============================
+    Table
+===============================*/
+
+.table img{
+    width:80px;
+}
+
+.table td,
+.table th{
+    vertical-align:middle;
+}
+
+/*==============================
+    Checkout
+===============================*/
+
+.checkout-summary{
+    position:sticky;
+    top:100px;
+}
+
+/*==============================
+    Team
+===============================*/
+
+.team img{
+    height:300px;
+    object-fit:cover;
+}
+
+/*==============================
+    Testimonials
+===============================*/
+
+.testimonial{
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+}
+
+/*==============================
+    Contact
+===============================*/
+
+iframe{
+    border-radius:10px;
+}
+
+/*==============================
+    Login
+===============================*/
+
+.login-card{
+    border-radius:15px;
+}
+
+.login-card input{
+    height:48px;
+}
+
+/*==============================
+    Footer
+===============================*/
+
+footer{
+    background:#212529;
+    color:#fff;
+}
+
+footer a{
+    color:#ddd;
+}
+
+footer a:hover{
+    color:#ffc107;
+}
+
+/*==============================
+    Social Icons
+===============================*/
+
+.social-icon{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    background:#0d6efd;
+    color:#fff;
+    margin:5px;
+    transition:.3s;
+}
+
+.social-icon:hover{
+    background:#ffc107;
+    color:#000;
+}
+
+/*==============================
+    Back To Top
+===============================*/
+
+#topBtn{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:50%;
+    background:#0d6efd;
+    color:#fff;
+    display:none;
+}
+
+/*==============================
+    Animations
+===============================*/
+
+.card,
+.btn,
+.nav-link,
+.social-icon{
+    transition:.3s ease;
+}
+
+/*==============================
+    Responsive
+===============================*/
+
+@media(max-width:992px){
+
+.carousel-caption{
+    bottom:50px;
+}
+
+.carousel-caption h1{
+    font-size:36px;
+}
+
+.carousel-item img{
+    height:420px;
+}
+
+}
+
+@media(max-width:768px){
+
+section{
+    padding:50px 0;
+}
+
+.carousel-item img{
+    height:320px;
+}
+
+.carousel-caption{
+    padding:15px;
+}
+
+.carousel-caption h1{
+    font-size:28px;
+}
+
+.carousel-caption p{
+    font-size:16px;
+}
+
+.navbar-brand{
+    font-size:24px;
+}
+
+}
+
+@media(max-width:576px){
+
+.carousel-item img{
+    height:250px;
+}
+
+.carousel-caption{
+    bottom:20px;
+}
+
+.carousel-caption h1{
+    font-size:22px;
+}
+
+.carousel-caption p{
+    display:none;
+}
+
+.btn{
+    font-size:14px;
+}
+
+}
